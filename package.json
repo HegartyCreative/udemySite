@@ -1,0 +1,23 @@
+{
+  "name": "udemy_site",
+  "version": "1.0.0",
+  "description": "A code along site on Udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HegartyCreative/udemySite.git"
+  },
+  "author": "Sean Hegarty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HegartyCreative/udemySite/issues"
+  },
+  "homepage": "https://github.com/HegartyCreative/udemySite#readme",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize.css": "^5.0.0"
+  }
+}
