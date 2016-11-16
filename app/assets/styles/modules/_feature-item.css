@@ -1,36 +1,32 @@
-.feature_item{
+.feature-item {
+  position: relative;
+  padding-bottom: 2.5rem;
 
-	padding-left: 0rem;
-	padding-bottom: 2rem;
+  @mixin atSmall {
+    padding-left: 94px;
+  }
 
-	@mixin atSmall {
-	padding-left: 5.875rem;
-	position: relative;
-     }	
+  &__icon {
+    display: block;
+    margin: 0 auto;
 
-	&__icon{
-		display: block;
-		margin: 0 auto;
+    @mixin atSmall {
+      position: absolute;
+      left: 0;
+    }
+  }
 
-	@mixin atSmall {
-		position: absolute;
-		left: 0;
-		top: 0;
-     }	
-	}
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: .7em;
+    margin-bottom: .8rem;
+    text-align: center;
 
-	&__title{
-		font-size: 1.6rem;
-		font-weight: 300;
-		margin-top: 1.2rem;
-		margin-bottom: 0.875rem;
-		text-align: center;
-
-		@mixin atSmall {
-		margin-top: 1rem;
-		font-size: 1.7rem;
-		text-align: left;
-     }	
-	}
-	
+    @mixin atSmall {
+      text-align: left;
+      margin-top: 1em;
+      font-size: 1.875rem;
+    }
+  }
 }
